@@ -1,0 +1,38 @@
+.now-games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 20px;
+}
+  
+.now-game:hover {
+  transform: scale(1.1); /* Enlarge the game cover by 10% on hover */
+}
+  
+.now-game {
+  transition: transform 0.3s; /* Smooth transition for the hover effect */
+}
+  
+.now-game a {text-decoration: none;}
+  
+.now-game img {
+    width: 100%;
+    height: auto;
+}
+  
+.now-podcasts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px;
+}
+  
+.now-podcast:hover {
+  transform: scale(1.1); /* Enlarge the game cover by 10% on hover */
+}
+  
+.now-podcast {
+  transition: transform 0.3s; /* Smooth transition for the hover effect */
+}
+  
+a {
+  text-decoration: none;
+}
